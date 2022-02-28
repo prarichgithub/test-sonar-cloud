@@ -14,6 +14,8 @@
 		5A6AEAF527CC9D8A007DFE12 /* TestForSonarCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AEAF427CC9D8A007DFE12 /* TestForSonarCloudTests.swift */; };
 		5A6AEAFF27CC9D8A007DFE12 /* TestForSonarCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AEAFE27CC9D8A007DFE12 /* TestForSonarCloudUITests.swift */; };
 		5A6AEB0127CC9D8A007DFE12 /* TestForSonarCloudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AEB0027CC9D8A007DFE12 /* TestForSonarCloudUITestsLaunchTests.swift */; };
+		5A6AEB0E27CC9DE1007DFE12 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AEB0D27CC9DE1007DFE12 /* FirstViewController.swift */; };
+		5A6AEB1027CC9E19007DFE12 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AEB0F27CC9E19007DFE12 /* First.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		5A6AEAFA27CC9D8A007DFE12 /* TestForSonarCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForSonarCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6AEAFE27CC9D8A007DFE12 /* TestForSonarCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForSonarCloudUITests.swift; sourceTree = "<group>"; };
 		5A6AEB0027CC9D8A007DFE12 /* TestForSonarCloudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForSonarCloudUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A6AEB0D27CC9DE1007DFE12 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5A6AEB0F27CC9E19007DFE12 /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				5A6AEAE527CC9D89007DFE12 /* ContentView.swift */,
 				5A6AEAE727CC9D8A007DFE12 /* Assets.xcassets */,
 				5A6AEAE927CC9D8A007DFE12 /* Preview Content */,
+				5A6AEB0D27CC9DE1007DFE12 /* FirstViewController.swift */,
+				5A6AEB0F27CC9E19007DFE12 /* First.storyboard */,
 			);
 			path = TestForSonarCloud;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				5A6AEAEB27CC9D8A007DFE12 /* Preview Assets.xcassets in Resources */,
 				5A6AEAE827CC9D8A007DFE12 /* Assets.xcassets in Resources */,
+				5A6AEB1027CC9E19007DFE12 /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6AEB0E27CC9DE1007DFE12 /* FirstViewController.swift in Sources */,
 				5A6AEAE627CC9D89007DFE12 /* ContentView.swift in Sources */,
 				5A6AEAE427CC9D89007DFE12 /* TestForSonarCloudApp.swift in Sources */,
 			);
